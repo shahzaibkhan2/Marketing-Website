@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiShop Marketing Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="img/logo10.png" alt="Logo" class="logo"></a>
+
+        <div id="input">
+            <input type="text" placeholder="Search here">
+            <button class="normal">Search</button>
+        </div>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop_page.html">Shop</a></li>
+                <li><a href="blog_page.html">Blog</a></li>
+                <li><a href="about_page.html">About</a></li>
+                <li><a href="contact_page.html">Contact</a></li>
+                <li id="shopping-bag"><a class="active" href="bag_page.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close-button"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mob">
+            <a href="bag_page.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="ambar" class="fas fa-outdent"></i>
+            
+        </div>
+    </section>
+
+    <section id="shop-hero" class="bag-back-img">
+       
+    </section>
+
+    <section id="bag" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Picture</td>
+                    <td>Product</td>
+                    <td>Quantiy</td>
+                    <td>Price</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="img/products/p10.jpg" alt=""></td>
+                    <td>Harley-Davidson Shirts</td>
+                    <td><input type="number" value="1"></td>
+                    <td>55$</td>
+                    <td>55$</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="img/products/p11.jpg" alt=""></td>
+                    <td>Harley-Davidson Shirts</td>
+                    <td><input type="number" value="1"></td>
+                    <td>33$</td>
+                    <td>33$</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="img/products/p12.jpg" alt=""></td>
+                    <td>Harley-Davidson Shirts</td>
+                    <td><input type="number" value="1"></td>
+                    <td>123$</td>
+                    <td>123$</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="bag-add" class="section-p1">
+        <div id="coupon">
+            <h3>Recieve Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Coupon">
+                <button class="normal">Recieve</button>
+            </div>
+        
+        </div>
+        <div id="total">
+            <h3>Bag Totals</h3>
+            <table>
+                <tr>
+                    <td>Bag Subtotal</td>
+                    <td>444$</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>444$</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Click to Proceed</button>
+        </div>
+    </section>
+
+
+    <footer id="foot" class="section-p1">
+        <div class="col">
+           
+            <h4 id="con">Contact</h4>
+            <p><strong>Address: </strong> 443 Wellington Road, Street 22, California</p>
+            <p><strong>Phone: </strong> +01 3232 843 /(+91) 01 2304 8032</p>
+            <p><strong>Hours: </strong> 10:00 - 11:00, Mon - Fri</p>
+
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-f"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>Acount</h4>
+            <a href="#">Sign In</a>
+            <a href="#">My Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Need Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play Store</p>
+            <div class="install-images">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2023, Global Marketing and Trading Company Private Limited.</p>
+        </div>
+
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
