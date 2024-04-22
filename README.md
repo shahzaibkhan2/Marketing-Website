@@ -1,4 +1,4 @@
-![The Ecommerce Marketing Website]()
+![The Ecommerce Marketing Website](img/landing_page.png)
 # The Ecommerce Marketing Website Developed with HTML, CSS and JavaScript
 
 Built a fully functional, responsive and beautiful Ecommerce Website hosted live on Github 
